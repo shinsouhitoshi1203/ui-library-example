@@ -1,3 +1,15 @@
-# ui-library-example
+shinsouhitoshi1203
+<h1>ui-library-example</h1>
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/shinsouhitoshi1203/ui-library-example)
+.../js
+
+    |> component
+    |>         app.js <-- main
+    |>
+    |> core
+    |>         core.js  <-- render HTML + generate a store
+    |>         reducer.js <-- interact with store + get data from somewhere else
+    |>         storeDelivery.js <-- return methods from core.js
+    |>
+    |> script.js <-- call attach()
+
